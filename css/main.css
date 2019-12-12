@@ -1,0 +1,116 @@
+/*.carousel-item {*/
+/*    height: 100vh;*/
+/*    min-height: 350px;*/
+/*    background: no-repeat center center scroll;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+.n{
+    position:absolute;
+    z-index:2;
+}
+slide{
+    position:absolute;
+}
+.trans {
+    background: transparent;
+}
+.carousel-caption h1{
+    font-size: 100px;
+    font-family:MathJax_Vector-Bold;
+
+}
+.carousel-caption p{
+    font-family:"NanumSquare Bold";
+
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.innerdot {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.sdot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dothings h2 span{
+    font-family: bold;
+
+}
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid black;
+}
+.controlPos{
+    position:relative;
+    top: 0;
+    left: 0;
+}
+.controlPos .f2{
+    top: 25px;
+    left: 50px;
+    z-index: 2;
+}
+.controlPos .f1{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.controlPos .f3{
+    position: absolute;
+    top:150px;
+    left: 300px;
+    z-index: 3;
+}
+.btn-white{
+    color: white  !important;
+    border: 2px solid white;
+}
+.bg-custom{
+    background-color: #E3A305;
+}
+.link{
+   color: black !important;
+    text-decoration-line: underline;
+}
+@media (max-width: 576px) {
+    .search
+    {
+        display: none;
+    }
+}
+.icon{
+    background-color: transparent;
+}
+.navbar .navbar-collapse {
+}
+
+/*two slider*/
+
+/*end two slider*/
+
+
+
+
+
+
+
+
+
+
+
+
